@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--title and linking the stylesheets-->
+    <title>AI Text Summarizer App</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <!--App Header and Introductory paragraphs-->
+    <h1>AI Text Summarizer App</h1>
+
+    <p>Welcome to the AI Text Summarizer App! This app leverages the power of AI APIs to provide concise summaries of long texts...</p>
+    <!--Text area and summarize button-->
+    <div class="container">
+        <div class="text-box">
+            <textarea id="text_to_summarize" name="text_to_summarize" placeholder="Paste in some text to summarize.(Min length is 200chars. Max lenght is 1000,000 chars.)"
+            maxlength="1000000"></textarea>
+            <button id="submit-button-text" class="submit-button"> <span class="submit-button-text"> Summarize </span></button>
+                    </div>
+            <!--Display area for summarized text-->
+        <div class="text-box">
+            <textarea name="summarized_text" id="summary" placeholder="Summarized text will appear here"></textarea>
+        </div>
+    </div>
+    <!--Call-to-action section-->
+    <section class="cta-section">
+        <!--Content and a link for further learning-->
+        <div class="cta-text">
+            <h2>Curious about this App?</h2>
+        </div>
+        <!--Image related to learning-->
+        <img src="102.png"></img>
+    </section>
+    <!--Including the script for functionality-->
+    <script src="script.js">
+    </script>
+</body>
+</html>
